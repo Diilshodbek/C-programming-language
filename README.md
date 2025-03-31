@@ -1,2 +1,1 @@
-Odiljonov Dilshodbek
-CProgrammingLanguage
+Odiljonov Dilshodbek - CProgrammingLanguage
