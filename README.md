@@ -1,1 +1,2 @@
-# cprg
+Odiljonov Dilshodbek
+CProgrammingLanguage
