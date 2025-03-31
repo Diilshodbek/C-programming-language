@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include <stdlib.h> // For sleep() and system()
+#include <stdlib.h> 
 
 int main() {
     char name[50];
@@ -14,7 +14,7 @@ int main() {
 
     printf("**The input has been processed successfully.**\n");
 
-    // Display splash screen
+    
     printf("\n/////////////////////////////////////////////////////////////\n");
     printf("[Magrathea ver 0.1]\n");
     printf("Magrathea, where a shining planet is created in a wasteland with no grass,\n");
@@ -25,11 +25,11 @@ int main() {
     printf("[User]: %s\n", name);
     printf("[Execution Time]: %s\n", date);
 
-    // (Bonus) Clear screen after 3 seconds
+    // Clear screen after 3 seconds
     sleep(3);
-    system("cls"); // Windows: "cls" | Mac/Linux: "clear"
+    system("cls"); 
 
-    // (Bonus) Print triangles
+    // Print triangles
     for (int i = 1; i <= 5; i++) {
         for (int j = 1; j <= i; j++) printf("*");
         printf("\n");
