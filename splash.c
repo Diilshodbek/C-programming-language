@@ -1,11 +1,12 @@
 #include <stdio.h>
-#include <stdlib.h> 
+#include <stdlib.h>
 
 int main() {
     char name[50];
     char date[11];
+    int i, j;
 
-    // Get user input
+    
     printf("[Please enter the current date in the \"yyyy-mm-dd\" format]: ");
     scanf("%10s", date);
 
@@ -25,17 +26,17 @@ int main() {
     printf("[User]: %s\n", name);
     printf("[Execution Time]: %s\n", date);
 
-    // Clear screen after 3 seconds
+    
     sleep(3);
-    system("cls"); 
+    system("cls");
 
-    // Print triangles
-    for (int i = 1; i <= 5; i++) {
-        for (int j = 1; j <= i; j++) printf("*");
+
+    for (i = 1; i <= 5; i++) {
+        for (j = 1; j <= i; j++) printf("*");
         printf("\n");
     }
-    for (int i = 5; i >= 1; i--) {
-        for (int j = 1; j <= i; j++) printf("*");
+    for (i = 5; i >= 1; i--) {
+        for (j = 1; j <= i; j++) printf("*");
         printf("\n");
     }
 
